@@ -1,0 +1,13 @@
+env.sh
+
+### Terraform ###
+# Compiled files
+**/*.tfstate
+**/*.tfplan
+**/*.tfstate.backup
+**/.terraform
+**/.terraform.lock.hcl
+**/.terraform/*
+
+#Plugin Cache
+plugin-cache/*
